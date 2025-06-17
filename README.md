@@ -1,5 +1,22 @@
 # 📊 Video Game Sales Analysis & Prediction
 
+## 📝 Project Summary
+
+This project explores global video game sales data to uncover market trends and build a predictive model for **North American sales (NA\_Sales)** using metadata such as genre, platform, release year, and sales in other regions. Leveraging **PySpark for scalable preprocessing**, **in-depth EDA**, and **machine learning models** (Linear Regression, Random Forest).
+
+## 🔍 Key Findings
+
+* **North America and Europe** account for **\~75%** of global physical game sales, making them critical markets for publishers.
+* **Sales peaked in 2008** (\~689M units), followed by a decline due to market saturation and digital distribution growth.
+* **Action**, **Sports**, and **Shooter** games dominate global sales; niche genres contribute less but may yield returns with lower budgets.
+* **Platform install base and library size** (e.g., PS2, DS, Wii) heavily influence total software sales.
+* **Random Forest Regressor** achieved **R² = 0.75** on test data, outperforming Linear Regression and providing strong generalization.
+* Strong **correlation** exists between NA, EU, and global sales, while **Japan sales show divergent trends**, indicating different market behaviors.
+
+
+
+
+
 ## 🎯 Objective
 
 The goal of this project is to analyze historical video game sales data across multiple regions and build a predictive model for **North American sales (NA_Sales)** based on game metadata such as genre, platform, release year, and sales in other regions.
